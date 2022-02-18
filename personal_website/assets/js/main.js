@@ -23,7 +23,21 @@
 };
 
 
+/******** BACK TO TOP ********/
+		$("#back-top .link").on('click', function(){
+				$('body,html').animate({
+						scrollTop: 0
+				},900);
+				return false;
+		});
 
+		var tmp = $(window).height();
+
+		$(window).on('scroll load', function(){
+				{
+						$('#back-top .link').addClass('show-btn');
+				}
+		})
 
 
 
