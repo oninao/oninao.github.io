@@ -588,7 +588,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out;
-		color: #98c593;
+		color: #6a4f8e;
 	}
 
 	sub {
@@ -1012,14 +1012,18 @@ input, select, textarea {
 
 	ul.menu {
 		cursor: default;
+
 	}
 
 		ul.menu li {
+
+			text-align: center;
 			display: inline-block;
 			line-height: 1em;
 			border-left: solid 1px #e5e6e7;
 			padding: 0 0 0 0.5em;
 			margin: 0 0 0 0.5em;
+
 		}
 
 			ul.menu li:first-child {
@@ -2179,6 +2183,7 @@ input, select, textarea {
 		background: #39454b;
 		color: rgba(185, 186, 187, 0.5);
 		overflow: hidden;
+		text-align: center;
 	}
 
 		#footer > * {
@@ -2191,15 +2196,18 @@ input, select, textarea {
 
 			#footer a:hover {
 				color: #b9babb;
+
 			}
 
 		#footer ul.menu {
-			margin: 0;
+
+			text-align: center;
 		}
 
 			#footer ul.menu li {
 				border-left-color: rgba(185, 186, 187, 0.2);
 				font-size: 0.9em;
+	      text-align: center;
 			}
 
 		@media screen and (max-width: 1000px) {
@@ -2232,6 +2240,7 @@ input, select, textarea {
 				line-height: inherit;
 				margin: 0.25em 0 0 0;
 				padding: 0.25em 0 0 0;
+				text-align: center;
 			}
 
 				#footer ul.menu li:first-child {
